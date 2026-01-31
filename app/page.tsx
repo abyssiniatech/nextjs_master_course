@@ -1,11 +1,7 @@
 
-
-const Home: React.FC = () => {
+const Home = () => {
   return (
     <div className="flex flex-col min-h-screen font-sans bg-gradient-to-r from-purple-500 via-pink-500 to-red-500 text-white">
-   
-
-     
       <main className="flex-1 flex flex-col items-center justify-center text-center px-4 md:px-20">
         <h1 className="text-4xl md:text-6xl font-bold mb-6 drop-shadow-lg">
           Welcome to Your Amazing Website
@@ -17,8 +13,6 @@ const Home: React.FC = () => {
           Get Started
         </button>
       </main>
-
-    
       <section className="bg-white text-gray-800 py-16">
         <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8 px-4">
           <div className="bg-purple-500 text-white p-6 rounded-lg shadow-lg hover:scale-105 transform transition">

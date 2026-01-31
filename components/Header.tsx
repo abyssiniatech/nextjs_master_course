@@ -8,7 +8,7 @@ const Header = () => {
     <header className="flex items-center justify-between px-6 py-4 bg-gray-900 text-white ">
    
       <div className="flex items-center gap-3">
-        <Image src="/logo.png" alt="Logo" width={40} height={40} />
+        <Image src="/logo.png" alt="Logo" width={40} height={40}  className="rounded-full"/>
         <h1 className="text-xl font-bold">My App</h1>
       </div>
       <nav className="flex gap-6">
